@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0447d411-075a-4db2-beaa-7c12781df13b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HIEN_THI_LOI_CHAO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HIEN_THI_LOI_CHAO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,17 +19,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +35,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Home.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dasd.java" />
       </list>
     </option>
   </component>
@@ -62,36 +51,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="UNG_DUNG_DOC_CHU_THANH_SO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UNG_DUNG_DOC_CHU_THANH_SO" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="UNG_DUNG_DOC_CHU_THANH_SO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UNG_DUNG_DOC_CHU_THANH_SO" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UNG_DUNG_DOC_CHU_THANH_SO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UNG_DUNG_DOC_CHU_THANH_SO" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553610137482" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553634293280" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -107,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.dasd">
     <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Home" />
       <module name="vn.com.code.UNG_DUNG_DOC_CHU_THANH_SO.main" />
@@ -115,8 +83,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dasd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dasd" />
+      <module name="vn.com.code.UNG_DUNG_DOC_CHU_THANH_SO.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dasd" />
         <item itemvalue="Application.Home" />
       </list>
     </recent_temporary>
@@ -132,28 +108,27 @@
       <option name="presentableId" value="Default" />
       <updated>1553596643729</updated>
       <workItem from="1553596646227" duration="684000" />
-      <workItem from="1553598823676" duration="2301000" />
+      <workItem from="1553598823676" duration="2519000" />
+      <workItem from="1553634124703" duration="812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2985000" />
+    <option name="totallyTimeSpent" value="4015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -164,6 +139,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -180,10 +156,22 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dasd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="method#one_to_hund#0;class#Home#0" />
+            <element signature="method#convert#0;class#Home#0" />
+            <element signature="method#main#0;class#Home#0" />
+          </folding>
         </state>
       </provider>
     </entry>
