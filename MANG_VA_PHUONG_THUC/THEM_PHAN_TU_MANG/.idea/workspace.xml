@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4322c35-e42d-4373-a0a9-9e2d6051d07a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DAO_NGUOC_MANG/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DAO_NGUOC_MANG/src/main/java/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TIM_GIA_TRI_NHO_NHAT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TIM_GIA_TRI_NHO_NHAT/src/main/java/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TIM_GIA_TRI_LON_NHAT_TRONG_MANG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TIM_GIA_TRI_LON_NHAT_TRONG_MANG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TIM_GIA_TRI_LON_NHAT_TRONG_MANG/out/production/classes/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TIM_GIA_TRI_LON_NHAT_TRONG_MANG/out/production/classes/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Home.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,11 +23,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +92,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553712785748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553715676315" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -140,23 +132,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553680489425</updated>
-      <workItem from="1553680491711" duration="5781000" />
+      <workItem from="1553680491711" duration="7887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5781000" />
+    <option name="totallyTimeSpent" value="7887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3306189" />
       <window_info anchor="bottom" id="Terminal" />
@@ -167,7 +158,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -190,11 +181,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

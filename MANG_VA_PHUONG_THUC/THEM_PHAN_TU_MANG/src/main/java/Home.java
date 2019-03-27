@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Home {
@@ -19,7 +20,18 @@ public class Home {
         System.out.println("");
         System.out.println("Nhap vi tri can chen ");
         x = sc.nextInt();
-        
+
+        if (x < 0 || x > arr.length-1){
+            System.out.println("Ban da nhap sai vi tri");
+        }else {
+            System.out.println("Nhap gia tri can them vao");
+            for (i = arr.length-1; i > x; i--) {
+                arr[i] = arr[i-1];
+            }
+            arr[x] = sc.nextInt();
+            System.out.println(Arrays.toString(arr));
+        }
+
     }
 
 
