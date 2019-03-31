@@ -18,7 +18,7 @@ public class StopWatch {
     }
 
     public static long getElapsedTime(){
-        long time = start() - stop();
+        long time =stop()- start();
        return  time;
     }
 

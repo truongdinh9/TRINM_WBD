@@ -5,17 +5,13 @@ public class Main {
     public static void main(String[] args) {
         StopWatch st = new StopWatch();
         Random r = new Random();
-
+        st.getStartTime();
         int [] arr  = new int[100000];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = r.nextInt();
         }
-        st.getStartTime();
         st.selectionSort(arr);
         st.getEndTime();
-
-
-//
         System.out.println(st.getElapsedTime());
     }
 }
