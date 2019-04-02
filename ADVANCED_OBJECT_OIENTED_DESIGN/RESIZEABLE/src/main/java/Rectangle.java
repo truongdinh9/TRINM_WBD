@@ -51,9 +51,7 @@ public class Rectangle  extends  Shape implements Resizeable{
 
     @Override
     public void resize(double percent) {
-        double total1 = getWidth() *percent/100;
-        double total2 = getLenght()* percent/100;
-        System.out.println("rong "+total1);
-        System.out.println("dai "+total2);
+        setWidth(getWidth() *percent/100);
+        setLenght(getLenght()* percent/100);
     }
 }
