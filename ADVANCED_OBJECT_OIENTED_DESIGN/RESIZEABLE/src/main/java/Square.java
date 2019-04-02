@@ -1,29 +1,41 @@
-public class Square extends Rectangle {
-    public Square(){
+public class Square extends Rectangle{
+    public Square() {
+    }
 
+    public Square(double side) {
+        super(side, side);
     }
-    public Square(double side){
-        super(side,side);
-    }
+
     public Square(double side, String color, boolean filled) {
-        super(color, filled,side, side);
+       super(color, filled,side, side );
     }
+
     public double getSide() {
         return getWidth();
     }
 
     public void setSide(double side) {
         setWidth(side);
-        setLength(side);
+        setLenght(side);
     }
+
+//    @Override
+//    public void setWidth(double width) {
+//        setSide(width);
+//    }
+//
+//    public void setLength(double length) {
+//        setSide(length);
+//    }
 
     @Override
     public void setWidth(double width) {
-        setSide(width);
+        super.setWidth(width);
     }
 
-    public void setLength(double length) {
-        setSide(length);
+    @Override
+    public void setLenght(double lenght) {
+        super.setLenght(lenght);
     }
 
     @Override
@@ -33,8 +45,9 @@ public class Square extends Rectangle {
                 + ", which is a subclass of "
                 + super.toString();
     }
+
     @Override
     public void resize(double percent) {
-
+        setSide(getWidth()*percent/100);
     }
 }

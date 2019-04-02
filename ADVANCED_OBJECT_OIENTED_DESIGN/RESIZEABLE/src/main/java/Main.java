@@ -16,5 +16,13 @@ public class Main {
         double perce2 = Math.random()*100 + 1;
         rectangle.resize(perce2);
         System.out.println(rectangle);
+
+        Square square = new Square(2.4);
+        System.out.println(square);
+
+
+        double perce3 = Math.random()*100+1;
+        square.resize(perce3);
+        System.out.println(square);
     }
 }
