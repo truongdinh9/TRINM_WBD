@@ -34,12 +34,12 @@ public class MyList<E> implements ArrayList<E> {
     }
 
     @Override
-    public boolean contains(Object o) {
+    public boolean contains(E o) {
         return false;
     }
 
     @Override
-    public int indexOf(Object o) {
+    public int indexOf(E o) {
         return 0;
     }
 
