@@ -4,15 +4,11 @@ import java.util.Arrays;
 
 public class MyList<E> implements ArrayList<E> {
     private int size = 0;
-    private static final int DEFAULT_CAPCITY = 1;
+    private static final int DEFAULT_CAPCITY = 10;
     private E elements[];
 
     public MyList() {
-    }
-
-    public MyList(int capa) {
-        capa = DEFAULT_CAPCITY;
-        elements = (E[]) new Object[capa];
+        elements = (E[]) new Object[DEFAULT_CAPCITY];
     }
 
     private void ensureCapa(int x){
@@ -22,17 +18,31 @@ public class MyList<E> implements ArrayList<E> {
 
     @Override
     public void add(int index, E element) {
-
+           for(int i =size -1;i>= index;i--){
+               elements[i+1] = elements[i];
+           }
+           elements[index] = element;
+           size++;
     }
-
+    public void addLast(E element){
+        elements[size] = element;
+    }
     @Override
     public E remove(int index) {
-        return null;
+        if (index >=0 && index<=size){
+            for (int i = index; i <= size-1; i++) {
+                elements[i] = elements[i + 1];
+            }
+        }else {
+            System.out.println("warning");
+        }
+        size--;
+        return elements[index];
     }
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
@@ -42,12 +52,19 @@ public class MyList<E> implements ArrayList<E> {
 
     @Override
     public boolean contains(E o) {
+        for (int i =0;i<size;i++){
+            if (o.equals(elements[i]))return true;
+
+        }
         return false;
     }
 
     @Override
     public int indexOf(E o) {
-        return 0;
+        for (int i=0 ;i<size;i++){
+            if (o.equals(elements[i]))return  i;
+        }
+        return -1;
     }
 
     @Override
@@ -67,7 +84,9 @@ public class MyList<E> implements ArrayList<E> {
 
     @Override
     public void clear() {
-
+        elements = (E[]) new Object[DEFAULT_CAPCITY];
+        size = 0;
     }
+
 
 }
