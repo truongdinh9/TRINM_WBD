@@ -1,21 +1,28 @@
 import array.ArrayList;
 
+import java.util.Arrays;
+
 public class MyList<E> implements ArrayList<E> {
     private int size = 0;
-    private static final int DEFAULT_CAPCITY = 10;
+    private static final int DEFAULT_CAPCITY = 1;
     private E elements[];
 
-
-
-    public MyList(int capa){
-        capa = DEFAULT_CAPCITY;
-        elements = (E[]) new Object[capa]  ;
+    public MyList() {
     }
 
+    public MyList(int capa) {
+        capa = DEFAULT_CAPCITY;
+        elements = (E[]) new Object[capa];
+    }
+
+    private void ensureCapa(int x){
+        size = x;
+        elements = Arrays.copyOf(elements, size);
+    }
 
     @Override
     public void add(int index, E element) {
-        elements[index] = element;
+
     }
 
     @Override
@@ -55,7 +62,7 @@ public class MyList<E> implements ArrayList<E> {
 
     @Override
     public E get(int index) {
-        return elements[index] ;
+        return elements[index];
     }
 
     @Override
