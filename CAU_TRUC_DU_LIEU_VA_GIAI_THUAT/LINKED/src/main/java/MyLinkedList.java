@@ -76,7 +76,7 @@ public class MyLinkedList<E> implements LinkedList<E> {
 
     @Override
     public E get() {
-        return  ;
+        return  null;
     }
 
 

@@ -9,5 +9,7 @@ public class MyListTest {
         System.out.println("Last"+list.getLast());
         list.add(2,"A");
 
+        System.out.println("adas" + list);
+
     }
 }
