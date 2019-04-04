@@ -25,7 +25,20 @@ public class MyLinkedList<E> implements LinkedList<E> {
     }
     @Override
     public void add(int index, E element) {
-
+        if (index<0){
+            addFirst(element);
+        }else if (index > size){
+            addLast(element);
+        }else {
+           Node current = head;
+            for (int i = 0; i < index-1;i++) {
+                current = current.next;
+            }
+            Node temp = current.next;
+            current.next = new Node(element);
+            (current.next).next = temp;
+            size++;
+        }
     }
 
     @Override
@@ -61,7 +74,10 @@ public class MyLinkedList<E> implements LinkedList<E> {
         return (E) tail.getData();
     }
 
-    
+    @Override
+    public E get() {
+        return  ;
+    }
 
 
 }

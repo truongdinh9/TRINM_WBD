@@ -7,6 +7,7 @@ public class MyListTest {
         list.addLast("6");
         System.out.println("Fist"+list.getFirst());
         System.out.println("Last"+list.getLast());
+        list.add(2,"A");
 
     }
 }

@@ -6,4 +6,5 @@ public interface LinkedList<E> {
       void addLast(E e);
       E getFirst();
      E getLast();
+     E get();
 }
