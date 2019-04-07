@@ -50,10 +50,10 @@ SELECT * FROM Trinm.Customer WHERE Customer.AGE BETWEEN 10 AND 15;
 
 -- IN
 
-SELECT * FROM Trinm.Customer WHERE Customer.ADDRESS IN ('Viet Nam','Canada','Brune');
+SELECT * FROM Trinm.Customer WHERE Customer.ADDRESS IN ('VIETNAM','CANADA','BRUNE');
 
 --  <=
-SELECT  * FROM  Trinm.Customer WHERE Customer.BIRTHDAY <='2003-03-03' AND ADDRESS = 'Viet Nam';
+SELECT  * FROM  Trinm.Customer WHERE Customer.BIRTHDAY <='2003-03-03' AND ADDRESS = 'VIETNAM';
 
 -- DROP
 
