@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e105c116-f9d2-473a-800e-8605f173afd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractAndInterfaceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../COMPARATOR/src/main/java/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../COMPARATOR/src/main/java/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../COMPARATOR/src/main/java/CircleComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RESIZEABLE/src/main/java/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RESIZEABLE/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RESIZEABLE/src/main/java/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RESIZEABLE/src/main/java/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RESIZEABLE/src/main/java/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RESIZEABLE/src/main/java/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KE_THUA/TRIANGLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KE_THUA/TRIANGLE/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,7 +29,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -55,47 +53,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AbstractAndInterfaceTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tiger.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_2.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-              <folding>
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="25" column="35" selection-end-line="59" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -123,21 +86,20 @@
         <option value="$PROJECT_DIR$/src/main/java/Apple.java" />
         <option value="$PROJECT_DIR$/src/main/java/Orange.java" />
         <option value="$PROJECT_DIR$/src/main/java/AbstractAndInterfaceTests.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d72efa47-2904-4cd1-b2aa-457f334487f4/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a3299ce5-8089-462e-a98c-e56ec693bf50/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console.sql" />
+        <option value="$USER_HOME$/Desktop/DB_TRINMPH04407.sql" />
+        <option value="$USER_HOME$/Desktop/DB_TRINM.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_2.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1299" />
-    <option name="height" value="743" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-75" />
+    <option name="y" value="151" />
+    <option name="width" value="1269" />
+    <option name="height" value="532" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,12 +137,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -225,23 +190,29 @@
       <workItem from="1554109964218" duration="5088000" />
       <workItem from="1554140225105" duration="656000" />
       <workItem from="1554146480007" duration="662000" />
+      <workItem from="1554435879661" duration="4493000" />
+      <workItem from="1554512952928" duration="3997000" />
+      <workItem from="1554536461363" duration="3268000" />
+      <workItem from="1554651898458" duration="214000" />
+      <workItem from="1554652212253" duration="2905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6406000" />
+    <option name="totallyTimeSpent" value="21283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3048683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
@@ -252,9 +223,12 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039905" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="14" sideWeight="0.49960095" visible="true" weight="0.28990227" />
+      <window_info anchor="bottom" id="SQL Generator" order="15" visible="true" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,7 +236,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32960895" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32242617" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -314,9 +288,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="45">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
             <element signature="e#78#79#0" expanded="true" />
@@ -325,21 +306,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tiger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#80#81#0" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d72efa47-2904-4cd1-b2aa-457f334487f4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d72efa47-2904-4cd1-b2aa-457f334487f4/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://d72efa47-2904-4cd1-b2aa-457f334487f4/schema/Trinm/table/Student" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d72efa47-2904-4cd1-b2aa-457f334487f4/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8325cd50-9ef8-4347-b302-9bc03a276360/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d72efa47-2904-4cd1-b2aa-457f334487f4/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0efbbad5-61b4-42b0-a3fb-b42fe7b9489d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3299ce5-8089-462e-a98c-e56ec693bf50/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35423d28-b56e-4942-932a-5eeaba06d210/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d23f88df-a444-4d8f-9c2d-7816a8d98e76/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://2259a48b-6be3-4f9b-9bad-940e92301302/schema/information_schema/view/CHARACTER_SETS.sql" />
+    <entry file="das://2259a48b-6be3-4f9b-9bad-940e92301302/schema/information_schema/view/CHARACTER_SETS" />
+    <entry file="das://2259a48b-6be3-4f9b-9bad-940e92301302/schema/information_schema/view/COLLATION_CHARACTER_SET_APPLICABILITY" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2259a48b-6be3-4f9b-9bad-940e92301302/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d295923-1a80-44e4-9ce5-0a8cc79f7a7a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aeaf0f05-46ea-4578-b1c0-e013515705ef/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/DB_TRINMPH04407.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/DB_TRINM.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="35" selection-end-line="59" selection-end-column="20" />
         </state>
       </provider>
     </entry>
