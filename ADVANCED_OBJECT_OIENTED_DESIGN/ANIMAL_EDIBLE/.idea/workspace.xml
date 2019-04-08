@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e105c116-f9d2-473a-800e-8605f173afd4" name="Default Changelist" comment="" />
+    <list default="true" id="e105c116-f9d2-473a-800e-8605f173afd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57e248c6-531d-4f9e-addb-a57dfac5a93a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/57e248c6-531d-4f9e-addb-a57dfac5a93a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -32,12 +37,6 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="LOGIN: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -52,17 +51,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_2.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,12 +78,12 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a3299ce5-8089-462e-a98c-e56ec693bf50/console.sql" />
         <option value="$USER_HOME$/Desktop/DB_TRINMPH04407.sql" />
         <option value="$USER_HOME$/Desktop/DB_TRINM.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_4.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_5.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_3.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_4.sql" />
       </list>
     </option>
   </component>
@@ -195,17 +184,17 @@
       <workItem from="1554536461363" duration="3268000" />
       <workItem from="1554651898458" duration="214000" />
       <workItem from="1554652212253" duration="2905000" />
+      <workItem from="1554720685145" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33866000" />
+    <option name="totallyTimeSpent" value="35340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12210695" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123703115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -371,34 +360,9 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/DB_TRINMPH04407.sql" />
     <entry file="file://$USER_HOME$/Desktop/DB_TRINM.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_4.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_5.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://57e248c6-531d-4f9e-addb-a57dfac5a93a/schema/My_Data/table/Contacts">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://57e248c6-531d-4f9e-addb-a57dfac5a93a/schema/My_Data/table/Contacts.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_5.sql" />
+    <entry file="das://57e248c6-531d-4f9e-addb-a57dfac5a93a/schema/My_Data/table/Contacts" />
+    <entry file="das://57e248c6-531d-4f9e-addb-a57dfac5a93a/schema/My_Data/table/Contacts.sql" />
     <entry file="uml://DATABASE/57e248c6-531d-4f9e-addb-a57dfac5a93a.SCHEMA:LOGIN">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -411,12 +375,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="214.5" y="123.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="124.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -444,6 +409,7 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -466,12 +432,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.7142857142857143" x="185.5" y="256.0" />
+          <settings layout="Hierarchic Group" zoom="0.7142857142857143" x="186.0" y="256.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -484,8 +451,15 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="81">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57e248c6-531d-4f9e-addb-a57dfac5a93a/console_4.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>

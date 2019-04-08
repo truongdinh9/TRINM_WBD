@@ -1,0 +1,30 @@
+CREATE DATABASE ACCOUNT;
+USE ACCOUNT;
+
+CREATE TABLE Customer(
+    CUSTOMER_ID         INT AUTO_INCREMENT,
+    FULLNAME            VARCHAR(50),
+    ADDRESS             VARCHAR(255),
+    EMAIL               VARCHAR(255) UNIQUE ,
+    PHONE               INT(11) UNIQUE ,
+    CONSTRAINT PK_Customer PRIMARY KEY (CUSTOMER_ID)
+);
+
+CREATE TABLE Accounts(
+    ACCOUNT_ID          INT AUTO_INCREMENT,
+    ACCOUNT_TYPE        ENUM('VIP','NORMAL','BUSINESS'),
+    DATES               DATETIME,
+    BALANCE             NUMERIC(11,2),
+    CONSTRAINT PK_Accounts PRIMARY KEY (ACCOUNT_ID)
+);
+
+CREATE TABLE Transaction(
+    TRAN_ID             INT AUTO_INCREMENT,
+    ACCOUNT_ID          INT NOT NULL ,
+    DATES               DATETIME,
+    AMOUNTS             NUMERIC(11,1),
+    DESCRPTIONS         VARCHAR(200),
+    CONSTRAINT PK_Transaction PRIMARY KEY (TRAN_ID),
+    CONSTRAINT FK_Accounts_Transaction FOREIGN KEY (ACCOUNT_ID) REFERENCES Accounts(ACCOUNT_ID)
+);
+
