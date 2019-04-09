@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d4bf59c-9d08-4af3-b4ad-173c1de3151b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CHI_SO_CAN_CUA_CO_THE/src/main/java/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.idea/dataSources/57e248c6-531d-4f9e-addb-a57dfac5a93a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.idea/dataSources/57e248c6-531d-4f9e-addb-a57dfac5a93a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADVANCED_OBJECT_OIENTED_DESIGN/ANIMAL_EDIBLE/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3879d23c-5fec-48cd-a706-76900a5a6b61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3879d23c-5fec-48cd-a706-76900a5a6b61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,12 +36,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="STORE: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -78,10 +70,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console.sql">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_2.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="158">
+              <caret line="146" column="20" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -94,7 +86,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_3.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_2.sql" />
       </list>
     </option>
   </component>
@@ -103,14 +97,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="660" />
@@ -135,14 +121,18 @@
             </path>
             <path>
               <item name="TIM_UOC_SO_CHUNG_LON_NHAT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIM_UOC_SO_CHUNG_LON_NHAT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="TIM_UOC_SO_CHUNG_LON_NHAT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIM_UOC_SO_CHUNG_LON_NHAT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="TIM_UOC_SO_CHUNG_LON_NHAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="3879d23c-5fec-48cd-a706-76900a5a6b61" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -152,9 +142,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../THAO_TAC_VOI_CSDL/TRUY_VAN_NANG_CAO_AND_OR.sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -185,7 +177,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4189000" />
+    <option name="totallyTimeSpent" value="11131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -197,9 +189,9 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.25803792" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.121308856" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.27361563" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.38599348" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -209,7 +201,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -217,7 +209,7 @@
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.32960895" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.22825219" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20271349" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32960895" />
@@ -275,15 +267,18 @@
           <ID>DATABASE</ID>
           <OriginalElement>3879d23c-5fec-48cd-a706-76900a5a6b61.SCHEMA:STORE</OriginalElement>
           <nodes>
-            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Offices</node>
-            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Employees</node>
-            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.ProductLines</node>
             <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Customer</node>
+            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Offices</node>
             <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Products</node>
+            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Payments</node>
+            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.ProductLines</node>
+            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Employees</node>
+            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.OrderDetails</node>
+            <node x="" y="">3879d23c-5fec-48cd-a706-76900a5a6b61.TABLE:STORE.Orders</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.284077892325315" x="354.5" y="909.3225806451613" />
+          <settings layout="Hierarchic Group" zoom="0.28837209302325584" x="384.0" y="635.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
@@ -292,10 +287,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="245">
+          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="146" column="20" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
         </state>
       </provider>
     </entry>
