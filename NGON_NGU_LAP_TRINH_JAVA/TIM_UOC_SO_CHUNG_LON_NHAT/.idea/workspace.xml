@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_4.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -182,11 +182,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13273000" />
+    <option name="totallyTimeSpent" value="13576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="DB Browser" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -196,7 +195,7 @@
       <window_info id="Designer" order="5" />
       <window_info content_ui="combo" id="Project" order="6" weight="0.121308856" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.38599348" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.38599348" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -214,7 +213,7 @@
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.32960895" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20271349" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.20271349" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32960895" />
@@ -322,8 +321,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3879d23c-5fec-48cd-a706-76900a5a6b61/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
         </state>
       </provider>
     </entry>
