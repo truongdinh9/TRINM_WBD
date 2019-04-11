@@ -1,5 +1,7 @@
-<%@ page import="com.code.Customer" %>
+
 <%@ page import="java.util.ArrayList" %>
+<%@ page import="java.lang.invoke.SerializedLambda" %>
+<%@ page import="com.code.model.Customer" %>
 <%--
 <%--
   Created by IntelliJ IDEA.
@@ -21,6 +23,10 @@
 
         ArrayList<Customer> listCustomer = new ArrayList<>();
         listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
+        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
+        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
+        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
+        request.setAttribute("list",listCustomer);
 
     %>
 
