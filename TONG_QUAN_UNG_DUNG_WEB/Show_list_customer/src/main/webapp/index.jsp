@@ -2,6 +2,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.lang.invoke.SerializedLambda" %>
 <%@ page import="com.code.model.Customer" %>
+<%@ page import="com.code.respository.impl.CustomerImplement" %>
 <%--
 <%--
   Created by IntelliJ IDEA.
@@ -20,14 +21,8 @@
 <body>
 <div>
     <%
-
-        ArrayList<Customer> listCustomer = new ArrayList<>();
-        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
-        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
-        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
-        listCustomer.add(new Customer("Tri", "30/07/1997", "ThaiBinh", ""));
-        request.setAttribute("list",listCustomer);
-
+        CustomerImplement customerImplement = new CustomerImplement();
+        request.setAttribute("list",customerImplement.lisCustomers());
     %>
 
     <table>
