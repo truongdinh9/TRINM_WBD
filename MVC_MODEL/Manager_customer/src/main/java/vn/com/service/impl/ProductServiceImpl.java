@@ -35,7 +35,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void update(int product_id, Product product) {
-        productMap.put(product_id,product);
+        productMap.replace(product_id,product);
     }
 
     @Override
