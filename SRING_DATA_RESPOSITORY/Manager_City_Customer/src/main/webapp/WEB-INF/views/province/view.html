@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+   <h1>View province: <span th:text="${provence.id}"></span></h1>
+</p>
+<table border="1">
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+    </tr>
+<a th:href="@{/provinces}">List province</a>
+<th:block th:each="customer :${customers}">
+    <tr>
+        <td th:text="${customer.firstName}"></td>
+        <td th:text="${customer.lastName}"></td>
+    </tr>
+</th:block>
+</table>
+</body>
+</html>
