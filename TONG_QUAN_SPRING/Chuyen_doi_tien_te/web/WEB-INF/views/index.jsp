@@ -13,7 +13,7 @@
 <body>
 <form action="/convert" method="post">
     <label>VN</label>
-    <input type="text" name="vn" value="${vn}"/><br/>
+    <input type="text" name="e" value="${vn}"/><br/>
     <label>USD</label>
     <input type="text" readonly value="${usd}">
     <input type="submit" value="Submit"/>

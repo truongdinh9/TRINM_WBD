@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public class controller {
     @PostMapping("/convert")
-    public String convert( double vn, Model model) {
-        double usd = vn / 23000;
-        model.addAttribute("vn", vn);
+    public String convert( double e, Model model) {
+        double usd = e / 23000;
+        model.addAttribute("vn", e);
         model.addAttribute("usd", usd);
         return "index";
     }
