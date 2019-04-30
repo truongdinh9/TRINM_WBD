@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Create customer</title>
@@ -10,17 +10,19 @@
     <a th:href="@{/customers}">Customer list</a>
 </p>
 <th:block th:if="${message}">
-    <p th:text="${message}"></p>
+    <p th:text="${message}" style="color: red"></p>
 </th:block>
 <form th:action="@{/create-customer}" th:object="${customer}" method="post">
     <table>
         <tr>
             <td>First name:</td>
             <td><input type="text" th:field="*{firstName}"/></td>
+            <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">firstName Error</td>
         </tr>
         <tr>
             <td>Last name</td>
             <td><input type="text" th:field="*{lastName}"/></td>
+            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">lastName Error</td>
         </tr>
         <tr>
             <td>Province</td>
