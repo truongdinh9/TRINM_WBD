@@ -73,10 +73,10 @@ public class Customer implements Validator {
         String lastName = customer.getLastName();
         ValidationUtils.rejectIfEmpty(errors,"firstName", "firstName.empty");
         ValidationUtils.rejectIfEmpty(errors,"lastName","lastName.empty");
-        if (firstName.length()< 50){
+        if (firstName.length()< 10){
             errors.rejectValue("firstName","firstName.length");
         }
-        if (lastName.length()<50){
+        if (lastName.length()<10){
             errors.rejectValue("lastName","lastName.length");
         }
     }

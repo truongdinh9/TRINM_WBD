@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table >
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Sub quanity</th>
+    </tr>
+
+    <tbody th:each="item : ${session.cart}">
+    <tr>
+        <td th:text="${item.product.id}"></td>
+        <td th:text="${item.product.name}"></td>
+        <td th:text="${item.product.price }"></td>
+        <td th:text="${item.quantity }"></td>
+        <td th:text="${item.product.price * item.quantity}" ></td>
+        <td><a th:href="@{/removeProduct/__${item.product.id}__}"
+               onclick="return confirm('Are you sure?')">Remove</a></td>
+    </tr>
+    </tbody>
+</table>
+<a th:href="@{/product}">Continue
+    Shopping</a>
+</body>
+</html>

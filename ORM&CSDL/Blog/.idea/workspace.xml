@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859d149e-bdaf-47ba-a26e-0d0e6d02c0ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/773f4276-dbce-4cd9-b433-ebf28a846d09.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/773f4276-dbce-4cd9-b433-ebf28a846d09/storage_v2/_src_/schema/Manager.jacBlQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/build/classes/java/main/vn/com/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/build/classes/java/main/vn/com/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/build/classes/java/main/vn/com/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/build/classes/java/main/vn/com/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/build/libs/Manager_City_Customer-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/build/libs/Manager_City_Customer-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/src/main/java/vn/com/controller/ListCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/src/main/java/vn/com/controller/ListCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/src/main/java/vn/com/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRING_DATA_RESPOSITORY/Manager_City_Customer/src/main/java/vn/com/model/Customer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,7 +60,17 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,8 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,16 +358,18 @@
       <workItem from="1556533349866" duration="495000" />
       <workItem from="1556533880219" duration="600000" />
       <workItem from="1556535161388" duration="49000" />
+      <workItem from="1556793434973" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10870000" />
+    <option name="totallyTimeSpent" value="10882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.27613726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.28092578" />
       <window_info id="Structure" order="1" sideWeight="0.50242716" side_tool="true" weight="0.26177174" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -456,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="44" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -580,6 +595,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
