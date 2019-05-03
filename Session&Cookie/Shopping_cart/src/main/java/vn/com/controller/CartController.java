@@ -3,6 +3,7 @@ package vn.com.controller;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,6 +22,18 @@ import java.util.List;
 public class CartController {
 
     private ProductService productService = new ProductServiceImpl();
+    @GetMapping("/cart")
+    public String index(HttpSession session, Model model){
+        List<Item> cart = (List<Item>) session.getAttribute("cart");
+        int amount = 0;
+        if (cart != null){
+            for (Item item: cart) {
+                amount = (int) (amount + item.getQuantity() * item.getProduct().getPrice());
+            }
+        }
+        model.addAttribute("amount", amount);
+        return "cart/listCart";
+    }
 
     @GetMapping("/buyProduct/{id}")
     public String buy(@PathVariable("id") int  id, HttpSession session){
@@ -40,7 +53,7 @@ public class CartController {
             }
             session.setAttribute("cart", items);
         }
-        return "cart/listCart";
+        return "redirect:/cart";
     }
 
     @GetMapping(value = "/removeProduct/{id}" )
