@@ -27,7 +27,6 @@ import org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import vn.com.formater.ProvinceFormatter;
-import vn.com.model.Province;
 import vn.com.service.CustomerService;
 import vn.com.service.ProvinceService;
 import vn.com.service.impl.CustomerServiceImpl;
@@ -36,7 +35,6 @@ import vn.com.service.impl.ProvinceServiceImpl;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
-import java.util.Formatter;
 import java.util.Properties;
 
 @Configuration
