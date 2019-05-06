@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c691b49b-97c9-46f7-a202-36d52658a216" name="Default Changelist" comment="" />
+    <list default="true" id="c691b49b-97c9-46f7-a202-36d52658a216" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/build/classes/java/main/vn/com/controller/DeleteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/build/classes/java/main/vn/com/controller/DeleteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/build/libs/Application_Blog_Multilanguage-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/build/libs/Application_Blog_Multilanguage-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/src/main/java/vn/com/controller/DeleteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../I18N/Application_Blog_Multilanguage/src/main/java/vn/com/controller/DeleteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/controller/DeleteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/controller/DeleteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogList.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -53,11 +66,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="31" column="98" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="31" selection-end-column="98" />
+              <caret line="31" column="98" selection-start-line="17" selection-start-column="4" selection-end-line="31" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/com/controller/DeleteController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -93,9 +127,9 @@
         <option value="$PROJECT_DIR$/src/main/java/vn/com/controller/CreateController.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/com/controller/UpdateController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogUpdate.html" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/com/controller/ListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/com/controller/DeleteController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogList.html" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/com/controller/ListController.java" />
       </list>
     </option>
   </component>
@@ -118,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +190,15 @@
               <item name="Appplication_Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Appplication_Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appplication_Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -167,10 +208,39 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Appplication_Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appplication_Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Appplication_Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appplication_Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Appplication_Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appplication_Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,17 +359,18 @@
       <workItem from="1557069618168" duration="14319000" />
       <workItem from="1557087848081" duration="69000" />
       <workItem from="1557114749789" duration="72000" />
+      <workItem from="1557133710535" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14460000" />
+    <option name="totallyTimeSpent" value="14481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30007982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3048683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -427,15 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c25248f6-b518-4153-a870-7202972cfa6e/schema/cms/table/Blog">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c25248f6-b518-4153-a870-7202972cfa6e/schema/cms/table/Blog" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/com/model/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -467,16 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/com/controller/DeleteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,17 +575,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="31" column="98" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="31" selection-end-column="98" />
+          <caret line="31" column="98" selection-start-line="17" selection-start-column="4" selection-end-line="31" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/com/controller/DeleteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/blogList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>

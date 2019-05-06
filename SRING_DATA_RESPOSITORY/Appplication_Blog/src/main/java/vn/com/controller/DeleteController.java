@@ -13,7 +13,7 @@ public class DeleteController {
     @Autowired
     BlogService blogService;
 
-    @GetMapping("/deleteBlog/{id}")
+    @GetMapping("/blogDelete/{id}")
     public ModelAndView delete(ModelAndView modelAndView,
                                @PathVariable Long id){
         blogService.remove(id);
