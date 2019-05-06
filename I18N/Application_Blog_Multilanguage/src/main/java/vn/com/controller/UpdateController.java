@@ -30,7 +30,7 @@ public class UpdateController {
         blogService.save(blog);
         modelAndView = new ModelAndView("/blog/blogUpdate");
         modelAndView.addObject("blog",blog);
-        modelAndView.addObject("message","success");
+        modelAndView.addObject("message","label.update.success");
         return modelAndView;
     }
 }

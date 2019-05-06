@@ -29,7 +29,7 @@ public class CreateController {
         blogService.save(blog);
         modelAndView = new ModelAndView("/blog/blogCreate");
         modelAndView.addObject("blog", blog);
-        modelAndView.addObject("message","success");
+        modelAndView.addObject("message","label.create.success");
         return modelAndView;
     }
 }
