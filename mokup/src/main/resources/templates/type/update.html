@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{/type}">List Type</a>
+<h1>Update</h1>
+<form th:object="${type}" th:action="@{/updateType}" method="post">
+    <table>
+        <input type="hidden" th:field="*{id}"/>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" th:field="*{name}" /></td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><input type="text" th:field="*{description}"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" th:value="Submit"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

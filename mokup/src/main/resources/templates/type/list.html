@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>List type</h1>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<a th:href="@{/createType}">Create type</a>
+
+<table border="1">
+   <tr>
+       <th>Name</th>
+       <th>description</th>
+       <th>Update</th>
+       <th>Delete</th>
+   </tr>
+    <th:block th:each=" type : ${types}">
+        <tr>
+            <td ><a th:href="@{/viewType/__${type.id}__}" th:text="${type.name}"></a></td>
+            <td th:text="${type.description}"></td>
+            <td><a th:href="@{/editType/__${type.id}__}">Update</a></td>
+            <td><a th:href="@{/deleteType/__${type.id}__}" onclick="return confirm(' Are you sure?')">Delete</a></td>
+        </tr>
+
+    </th:block>
+</table>
+</body>
+</html>

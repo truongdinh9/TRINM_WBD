@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+<h1> View type: <span th:text="${type.get().name}"></span></h1>
+<a th:href="@{/type}">List type</a>
+</p>
+<table border="1">
+    <tr>
+        <th>Title</th>
+        <th>Content</th>
+    </tr>
+    <th:block th:each="note : ${notes}">
+        <tr>
+            <td th:text="${note.title}"></td>
+            <td th:text="${note.content}"></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

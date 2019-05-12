@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{/note}">List Note</a>
+<th:block th:if="${message}">
+        <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/saveNote}" th:object="${note}" method="post">
+    <table>
+        <tr>
+            <td>Title</td>
+            <td><input th:type="text" th:field="*{title}"/></td>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td><textarea th:type="text" th:field="*{content}"/></td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>
+                <select th:field="*{type}">
+                    <option th:each="t :${types}" th:value="${t.id}" th:text="${t.name}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" th:value="Submit"/></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
