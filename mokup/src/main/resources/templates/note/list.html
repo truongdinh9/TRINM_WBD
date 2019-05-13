@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<script>
+    function search() {
+        document.getElementById("search").submit();
+    }
+</script>
 <body>
 <a th:href="@{/createNote}">Create note</a>
+<br>
 
+<form id="search">
+    <select name="type_id" onchange="search()">
+<!--        &lt;!&ndash;        <option th:text="${type_id}"></option>&ndash;&gt;-->
+<!--        <option th:each="t : ${types}"-->
+<!--                th:value="${t.id}"-->
+<!--                th:text="${t.name}"-->
+<!--                th:selected="(${type_id} == ${t.getId()})>-->
+<!--        </option>-->
+        <option value="">All list</option>
+        <option th:each="t :${types}"
+                th:value="${t.id}"
+                th:selected="(${t.id} == ${type_id})">
+            <span th:text="${t.name}"></span>
+        </option>
+    </select>
+</form>
 
 <form>
     Search title:
     <input name="s" type="text"/>
-    <input type="submit" th:value="Search"/>
+        <input type="submit" th:value="Search"/>
 </form>
 
 <table border="1">

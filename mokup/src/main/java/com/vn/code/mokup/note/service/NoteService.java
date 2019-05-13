@@ -18,7 +18,9 @@ public interface NoteService {
 
     void save(Note note);
 
-    void remove (Long id);
+    void remove(Long id);
 
     Iterable<Note> findAllByType(Optional<Type> type);
+
+    Page<Note> findAllByType(Optional<Type> type, Pageable pageable);
 }

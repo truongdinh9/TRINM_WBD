@@ -47,4 +47,9 @@ public class NoteServiceImpl  implements NoteService {
     public Iterable<Note> findAllByType(Optional<Type> type) {
         return noteRepository.findAllByType(type);
     }
+
+    @Override
+    public Page<Note> findAllByType(Optional<Type> type, Pageable pageable) {
+        return noteRepository.findAllByType(type,pageable);
+    }
 }

@@ -12,5 +12,6 @@ import java.util.Optional;
 @Repository
 public interface NoteRepository extends PagingAndSortingRepository<Note,Long> {
     Page<Note> findAllByTitleContaining (String title, Pageable pageable);
+    Page<Note> findAllByType (Optional<Type> type,Pageable pageable);
     Iterable<Note> findAllByType(Optional<Type> type);
 }
