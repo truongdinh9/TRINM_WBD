@@ -9,6 +9,9 @@
 <h1> View type: <span th:text="${type.get().name}"></span></h1>
 <a th:href="@{/type}">List type</a>
 </p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
 <table border="1">
     <tr>
         <th>Title</th>
