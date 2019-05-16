@@ -37,11 +37,13 @@ public class NoteListController {
         Page<Note> notes; // page chua ket qua tra ve
         if (s.isPresent()) { // isPresent de kiem tra doi tuong nay co rong hay khong neu rong thi no tra ve false
             notes = noteService.findAllByTitleContaining(s.get(), pageable);
-        } else if (type_id.isPresent()) {
+        }
+        else if (type_id.isPresent()) {
             Optional<Type> type = typeService.findById(type_id.get());
             notes = noteService.findAllByType(type, pageable);
             modelAndView.addObject("type_id", type_id.get());
-        } else {
+        }
+        else {
             notes = noteService.findAll(pageable);
         }
         modelAndView.addObject("notes", notes);
